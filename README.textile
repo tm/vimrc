@@ -1,0 +1,24 @@
+h1. MacVimrc
+
+My vim dotfiles (.vimrc, .givmrc) I use "MacVim":http://code.google.com/p/macvim/ on Mac OS X, but most of the settings should work with Linux or Windows versions of Vim.
+
+Some stuff in the config files is related to the plugins I have installed (most of them are specific to Ruby on Rails development).
+
+* "rails.vim":http://www.vim.org/scripts/script.php?script_id=1567
+* "Command-T":http://www.vim.org/scripts/script.php?script_id=3025
+* "NERD Tree":http://www.vim.org/scripts/script.php?script_id=1658
+* "NERD Commenter":http://www.vim.org/scripts/script.php?script_id=1218
+* "dbext.vim":http://www.vim.org/scripts/script.php?script_id=356
+* "cucumber.vim":http://www.vim.org/scripts/script.php?script_id=2973
+* "fugitive.vim":http://www.vim.org/scripts/script.php?script_id=2975
+* "surround.vim":http://www.vim.org/scripts/script.php?script_id=1697
+* "TailMinusF":http://www.vim.org/scripts/script.php?script_id=1374
+* "autoclose.vim":http://www.vim.org/scripts/script.php?script_id=1849
+* "endwise.vim":http://www.vim.org/scripts/script.php?script_id=2386
+* "Textile":http://www.vim.org/scripts/script.php?script_id=2305
+
+The colorscheme of my choice is "twilight":http://www.vim.org/scripts/script.php?script_id=1677.
+
+h2. Instalation
+
+Put the files inside the user's home directiory.

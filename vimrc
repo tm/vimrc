@@ -30,7 +30,6 @@ set showbreak=:::
 set mousehide
 set mouse=a
 
-
 set statusline=%F%m%r%h%w\ (%{&ff},\ %{\"\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"\"}){%Y}[%04l,%04v][%p%%][LEN=%L]
 set statusline+=%{fugitive#statusline()}
 set laststatus=2
@@ -39,12 +38,6 @@ set laststatus=2
 set fileformat=unix
 set fileformats=unix,dos
 set encoding=utf-8
-
-
-set guifont=Monaco:h12
-set guioptions-=T
-set lines=46
-set columns=160
 
 filetype plugin on
 filetype indent on
