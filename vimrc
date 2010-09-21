@@ -30,11 +30,11 @@ set showbreak=:::
 set mousehide
 set mouse=a
 
-set statusline=%F%m%r%h%w\ (%{&ff},\ %{\"\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"\"}){%Y}[%04l,%04v][%p%%][LEN=%L]
-set statusline+=%{fugitive#statusline()}
 set laststatus=2
+set statusline=%F%m%r%h%w\ (%{&ff},\ %{\"\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"\"}){%Y}[%04l,%04v][%p%%][LEN=%L]
+" fugitive part of ststus line
+set statusline+=%{fugitive#statusline()}
     
-
 set fileformat=unix
 set fileformats=unix,dos
 set encoding=utf-8
@@ -48,5 +48,8 @@ highlight Pmenu guibg=sienna3 gui=bold
 
 imap <F5> <ESC>:w !ruby "%"<CR>
 
+" rails.vim settings
 let g:rails_default_file='config/database.yml'
+
+" NERDTree settings
 let NERDTreeShowHidden=1
