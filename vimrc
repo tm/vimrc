@@ -46,7 +46,8 @@ set shortmess=I
 
 highlight Pmenu guibg=sienna3 gui=bold
 
-imap <F5> <ESC>:w !ruby "%"<CR>
+map <D-r> <ESC>:w !ruby "%"<CR>
+map! <D-r> <ESC>:w !ruby "%"<CR>
 
 " rails.vim settings
 let g:rails_default_file='config/database.yml'
