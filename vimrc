@@ -1,5 +1,6 @@
 set nocompatible
 set nobackup
+set noswapfile
 set autoindent
 set smarttab
 set incsearch
@@ -20,6 +21,11 @@ set confirm
 set autowrite
 set timeoutlen=2000
 set visualbell t_vb=
+set hidden
+set ignorecase
+set smartcase
+set history=1000
+set undolevels=1000
 
 set display+=lastline
 set showmode
@@ -46,11 +52,17 @@ set shortmess=I
 
 highlight Pmenu guibg=sienna3 gui=bold
 
+noremap ; : 
 map <D-r> <ESC>:w !ruby "%"<CR>
 map! <D-r> <ESC>:w !ruby "%"<CR>
+nmap <silent> ,/ :nohlsearch<CR>
+
 
 " rails.vim settings
 let g:rails_default_file='config/database.yml'
 
 " NERDTree settings
 let NERDTreeShowHidden=1
+
+" change the mapleader from \ to ,
+let mapleader=","
