@@ -13,7 +13,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "fugitive.vim":http://www.vim.org/scripts/script.php?script_id=2975
 * "surround.vim":http://www.vim.org/scripts/script.php?script_id=1697
 * "TailMinusF":http://www.vim.org/scripts/script.php?script_id=1374
-* "autoclose.vim":http://www.vim.org/scripts/script.php?script_id=1849
+* "delimitMate":http://www.vim.org/scripts/script.php?script_id=2754
 * "endwise.vim":http://www.vim.org/scripts/script.php?script_id=2386
 * "Textile":http://www.vim.org/scripts/script.php?script_id=2305
 * "Pastie":http://www.vim.org/scripts/script.php?script_id=1624
