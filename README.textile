@@ -20,7 +20,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "snipMate":http://www.vim.org/scripts/script.php?script_id=2540
 * "snipmate-snippets":http://github.com/scrooloose/snipmate-snippets
 
-The colorscheme of my choice is "twilight":http://www.vim.org/scripts/script.php?script_id=1677.
+The colorscheme of my choice is "mustang":http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484.
 
 h2. Instalation
 
