@@ -50,8 +50,6 @@ filetype indent on
 syntax on
 set shortmess=I
 
-highlight Pmenu guibg=sienna3 gui=bold
-
 noremap ; : 
 map <D-r> <ESC>:w !ruby "%"<CR>
 map! <D-r> <ESC>:w !ruby "%"<CR>
