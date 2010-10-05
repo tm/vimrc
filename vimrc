@@ -9,7 +9,7 @@ set backspace=2
 set showcmd
 set ruler
 set wildmenu
-set number
+set relativenumber
 set expandtab
 set shiftwidth=2
 set softtabstop=2
@@ -26,11 +26,14 @@ set ignorecase
 set smartcase
 set history=1000
 set undolevels=1000
+set scrolloff=3
+set gdefault
 
 set display+=lastline
 set showmode
 set formatoptions+=1
 set wrap
+set colorcolumn=85
 set linebreak
 set showbreak=:::
 set mousehide
@@ -50,12 +53,15 @@ filetype indent on
 syntax on
 set shortmess=I
 
-noremap ; : 
+nnoremap / /\v
+vnoremap / /\v
+nnoremap <tab> %
+vnoremap <tab> %
 map <D-r> <ESC>:w !ruby "%"<CR>
 map! <D-r> <ESC>:w !ruby "%"<CR>
 nmap <silent> ,/ :nohlsearch<CR>
 
-
+ 
 " rails.vim settings
 let g:rails_default_file='config/database.yml'
 
@@ -64,3 +70,5 @@ let NERDTreeShowHidden=1
 
 " change the mapleader from \ to ,
 let mapleader=","
+
+au FocusLost * :wa
