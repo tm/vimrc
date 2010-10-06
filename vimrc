@@ -60,6 +60,7 @@ vnoremap <tab> %
 map <D-r> <ESC>:w !ruby "%"<CR>
 map! <D-r> <ESC>:w !ruby "%"<CR>
 nmap <silent> ,/ :nohlsearch<CR>
+nnoremap <silent> <F11> :YRShow<CR>
 
  
 " rails.vim settings
