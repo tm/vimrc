@@ -21,6 +21,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "snipmate-snippets":http://github.com/taxilian/snipmate-snippets
 * "Sparkup":http://github.com/rstacruz/sparkup
 * "YankRing":http://www.vim.org/scripts/script.php?script_id=1234
+* "gist.vim":http://www.vim.org/scripts/script.php?script_id=2423
 
 The colorscheme of my choice is "mustang":http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484.
 
