@@ -19,6 +19,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "Pastie":http://www.vim.org/scripts/script.php?script_id=1624
 * "snipMate":http://www.vim.org/scripts/script.php?script_id=2540
 * "snipmate-snippets":http://github.com/taxilian/snipmate-snippets
+* "Sparkup":http://github.com/rstacruz/sparkup
 
 The colorscheme of my choice is "mustang":http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484.
 

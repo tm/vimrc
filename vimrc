@@ -72,3 +72,6 @@ let NERDTreeShowHidden=1
 let mapleader=","
 
 au FocusLost * :wa
+
+" snipmate-snippets setup
+source ~/.vim/snippets/support_functions.vim
