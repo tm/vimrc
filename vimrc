@@ -33,7 +33,7 @@ set display+=lastline
 set showmode
 set formatoptions+=1
 set wrap
-set colorcolumn=85
+"set colorcolumn=85
 set linebreak
 set showbreak=:::
 set mousehide
