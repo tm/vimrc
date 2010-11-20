@@ -28,7 +28,6 @@ set history=1000
 set undolevels=1000
 set scrolloff=3
 set gdefault
-set transparency=5
 
 set display+=lastline
 set showmode
