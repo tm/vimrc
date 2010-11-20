@@ -28,6 +28,7 @@ set history=1000
 set undolevels=1000
 set scrolloff=3
 set gdefault
+set transparency=5
 
 set display+=lastline
 set showmode
@@ -61,6 +62,8 @@ map <D-r> <ESC>:w !ruby "%"<CR>
 map! <D-r> <ESC>:w !ruby "%"<CR>
 nmap <silent> ,/ :nohlsearch<CR>
 nnoremap <silent> <F11> :YRShow<CR>
+map k gk
+map j gj
 
  
 " rails.vim settings
