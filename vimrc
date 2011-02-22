@@ -76,8 +76,5 @@ let mapleader=","
 
 " au FocusLost * :wa
 
-" snipmate-snippets setup
-source ~/.vim/snippets/support_functions.vim
-
 " open browser after post to Gist
 let g:gist_open_browser_after_post = 1
