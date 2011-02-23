@@ -22,6 +22,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "Sparkup":http://github.com/rstacruz/sparkup
 * "YankRing":http://www.vim.org/scripts/script.php?script_id=1234
 * "gist.vim":http://www.vim.org/scripts/script.php?script_id=2423
+* "vim-haml":https://github.com/tpope/vim-haml
 
 The colorscheme of my choice is "twilight":http://www.vim.org/scripts/script.php?script_id=1677.
 
