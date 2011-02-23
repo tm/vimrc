@@ -9,7 +9,6 @@ set backspace=2
 set showcmd
 set ruler
 set wildmenu
-set relativenumber
 set expandtab
 set shiftwidth=2
 set softtabstop=2

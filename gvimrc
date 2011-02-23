@@ -4,6 +4,7 @@ set guioptions=aAce
 set lines=46
 set columns=160
 set transparency=5
+set relativenumber
 
 colorscheme twilight
 
