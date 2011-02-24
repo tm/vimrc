@@ -19,7 +19,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "Pastie":http://www.vim.org/scripts/script.php?script_id=1624
 * "snipMate":http://www.vim.org/scripts/script.php?script_id=2540
 * "snipmate-snippets":http://github.com/taxilian/snipmate-snippets
-* "Sparkup":http://github.com/rstacruz/sparkup
+* "zencoding-vim":http://github.com/mattn/zencoding-vim
 * "YankRing":http://www.vim.org/scripts/script.php?script_id=1234
 * "gist.vim":http://www.vim.org/scripts/script.php?script_id=2423
 * "vim-haml":https://github.com/tpope/vim-haml
