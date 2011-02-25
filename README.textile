@@ -26,6 +26,6 @@ Some stuff in the config files is related to the plugins I have installed (most 
 
 The colorscheme of my choice is "twilight":http://www.vim.org/scripts/script.php?script_id=1677.
 
-h2. Instalation
+h2. Installation
 
 Put the files inside the user's home directiory.
