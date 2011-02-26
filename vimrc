@@ -36,6 +36,7 @@ set wrap
 "set colorcolumn=85
 set linebreak
 set showbreak=:::
+set listchars=tab:▶\ ,eol:¶
 set mousehide
 set mouse=a
 
@@ -43,7 +44,7 @@ set laststatus=2
 set statusline=%F%m%r%h%w\ (%{&ff},\ %{\"\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"\"}){%Y}[%04l,%04v][%p%%][LEN=%L]
 " fugitive part of ststus line
 set statusline+=%{fugitive#statusline()}
-    
+
 set fileformat=unix
 set fileformats=unix,dos
 set encoding=utf-8
@@ -63,8 +64,9 @@ nmap <silent> ,/ :nohlsearch<CR>
 nnoremap <silent> <F11> :YRShow<CR>
 map k gk
 map j gj
+nmap <leader>l :set list!<CR>
 
- 
+
 " rails.vim settings
 let g:rails_default_file='config/database.yml'
 
