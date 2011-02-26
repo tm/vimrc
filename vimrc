@@ -54,6 +54,9 @@ filetype indent on
 syntax on
 set shortmess=I
 
+" change the mapleader from \ to ,
+let mapleader=","
+
 nnoremap / /\v
 vnoremap / /\v
 nnoremap <tab> %
@@ -64,7 +67,7 @@ nmap <silent> ,/ :nohlsearch<CR>
 nnoremap <silent> <F11> :YRShow<CR>
 map k gk
 map j gj
-nmap <leader>l :set list!<CR>
+nnoremap <leader>l :set list!<CR>
 
 
 " rails.vim settings
@@ -73,10 +76,8 @@ let g:rails_default_file='config/database.yml'
 " NERDTree settings
 let NERDTreeShowHidden=1
 
-" change the mapleader from \ to ,
-let mapleader=","
 
-" au FocusLost * :wa
+"au FocusLost * :wa
 
 " open browser after post to Gist
 let g:gist_open_browser_after_post = 1
