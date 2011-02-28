@@ -94,6 +94,8 @@ map <leader>n :NERDTreeToggle<CR>
 
 " Command-T configuration
 let g:CommandTMaxHeight=20
+macmenu &File.New\ Tab key=<nop>
+map <D-t> :CommandT<CR>
 
 " YankRing configuration
 nnoremap <silent> <F11> :YRShow<CR>
