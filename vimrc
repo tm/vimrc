@@ -1,10 +1,17 @@
 set nocompatible
+
 set nobackup
 set noswapfile
+
 set autoindent
 set smarttab
+
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase
+
+
 set backspace=2
 set showcmd
 set ruler
