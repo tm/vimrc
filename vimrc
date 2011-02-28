@@ -88,14 +88,12 @@ nnoremap <leader>l :set list!<CR>
 " rails.vim configuration
 let g:rails_default_file='config/database.yml'
 
+" Command-T configuration
+let g:CommandTMaxHeight=20
+
 " NERDTree configuration
 let NERDTreeShowHidden=1
 map <leader>n :NERDTreeToggle<CR>
-
-" Command-T configuration
-let g:CommandTMaxHeight=20
-macmenu &File.New\ Tab key=<nop>
-map <D-t> :CommandT<CR>
 
 " YankRing configuration
 nnoremap <silent> <F11> :YRShow<CR>
