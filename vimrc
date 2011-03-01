@@ -83,10 +83,6 @@ map k gk
 map j gj
 nnoremap <leader>l :set list!<CR>
 
-
-" snipMate configuration
-source ~/.vim/snippets/support_functions.vim
-
 " rails.vim configuration
 let g:rails_default_file='config/database.yml'
 
