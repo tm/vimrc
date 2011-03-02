@@ -79,8 +79,12 @@ vnoremap <tab> %
 map <D-r> <ESC>:w !ruby "%"<CR>
 map! <D-r> <ESC>:w !ruby "%"<CR>
 nmap <silent> ,/ :nohlsearch<CR>
-map k gk
-map j gj
+nmap k gk
+nmap j gj
+vmap k gk
+vmap j gj
+sunmap k
+sunmap j
 nnoremap <leader>l :set list!<CR>
 
 " rails.vim configuration
