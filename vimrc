@@ -102,3 +102,6 @@ nnoremap <silent> <F11> :YRShow<CR>
 
 " Gist configuration
 let g:gist_open_browser_after_post = 1
+
+" snipMate configuration
+so ~/.vim/snippets/support_functions.vim
