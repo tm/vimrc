@@ -18,7 +18,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "Textile":http://www.vim.org/scripts/script.php?script_id=2305
 * "Pastie":http://www.vim.org/scripts/script.php?script_id=1624
 * "snipMate":http://www.vim.org/scripts/script.php?script_id=2540
-* "snipmate-snippets":https://github.com/scrooloose/snipmate-snippets
+* "snipmate-snippets":https://github.com/taxilian/snipmate-snippets/
 * "zencoding-vim":http://github.com/mattn/zencoding-vim
 * "YankRing":http://www.vim.org/scripts/script.php?script_id=1234
 * "gist.vim":http://www.vim.org/scripts/script.php?script_id=2423
