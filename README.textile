@@ -24,6 +24,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "gist.vim":http://www.vim.org/scripts/script.php?script_id=2423
 * "vim-haml":https://github.com/tpope/vim-haml
 * "extradite.vim":http://int3.github.com/vim-extradite/
+* "ack.vim":https://github.com/mileszs/ack.vim
 
 The colorscheme of my choice is "twilight":http://www.vim.org/scripts/script.php?script_id=1677.
 
