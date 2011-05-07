@@ -87,6 +87,11 @@ sunmap k
 sunmap j
 nnoremap <leader>l :set list!<CR>
 
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+
 " rails.vim configuration
 let g:rails_default_file='config/database.yml'
 
