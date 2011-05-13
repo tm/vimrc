@@ -92,6 +92,10 @@ nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
 
+
+" Ruby mappings
+imap <C-l> <Space>=><Space>
+
 " rails.vim configuration
 let g:rails_default_file='config/database.yml'
 
@@ -109,4 +113,4 @@ nnoremap <silent> <F11> :YRShow<CR>
 let g:gist_open_browser_after_post = 1
 
 " snipMate configuration
-so ~/.vim/snippets/support_functions.vim
+"so ~/.vim/snippets/support_functions.vim
