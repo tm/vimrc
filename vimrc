@@ -36,6 +36,8 @@ set laststatus=2
 set statusline=%F%m%r%h%w\ (%{&ff},\ %{\"\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"\"}){%Y}[%04l,%04v][%p%%][LEN=%L]
 " fugitive part of status line
 set statusline+=%{fugitive#statusline()}
+" rvm part of status line
+set statusline+=%{rvm#statusline()}
 
 " File write
 set confirm
@@ -103,7 +105,9 @@ let g:rails_default_file='config/database.yml'
 let g:CommandTMaxHeight=20
 
 " NERDTree configuration
+au VimEnter * NERDTreeFind
 let NERDTreeShowHidden=1
+let NERDTreeShowLineNumbers=0
 map <leader>n :NERDTreeToggle<CR>
 
 " YankRing configuration
