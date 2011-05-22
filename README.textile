@@ -28,6 +28,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "jslint.vim":https://github.com/hallettj/jslint.vim
 * "vim-coffee-script":https://github.com/kchmck/vim-coffee-script
 * "vim-ragtag":https://github.com/tpope/vim-ragtag
+* "rvm.vim":https://github.com/csexton/rvm.vim
 
 The colorscheme of my choice is "twilight":http://www.vim.org/scripts/script.php?script_id=1677.
 
