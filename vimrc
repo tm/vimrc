@@ -1,5 +1,11 @@
 set nocompatible
 
+" Pathogen call
+filetype off 
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
+
 set ruler
 syntax on
 
@@ -68,6 +74,8 @@ set linebreak
 set mousehide
 set mouse=a
 
+
+
 filetype plugin on
 filetype indent on
 
@@ -105,9 +113,7 @@ let g:rails_default_file='config/database.yml'
 let g:CommandTMaxHeight=20
 
 " NERDTree configuration
-au VimEnter * NERDTreeFind
 let NERDTreeShowHidden=1
-let NERDTreeShowLineNumbers=0
 map <leader>n :NERDTreeToggle<CR>
 
 " YankRing configuration
@@ -115,6 +121,3 @@ nnoremap <silent> <F11> :YRShow<CR>
 
 " Gist configuration
 let g:gist_open_browser_after_post = 1
-
-" snipMate configuration
-"so ~/.vim/snippets/support_functions.vim
