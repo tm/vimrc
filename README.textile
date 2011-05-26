@@ -4,25 +4,25 @@ My vim dotfiles (.vimrc, .givmrc) I use "MacVim":http://code.google.com/p/macvim
 
 Some stuff in the config files is related to the plugins I have installed (most of them are specific to Ruby on Rails development).
 
-* "rails.vim":https://github.com/tpope/vim-rails.git
-* "Command-T":git://git.wincent.com/command-t.git
-* "NERD Tree":https://github.com/scrooloose/nerdtree.git
-* "NERD Commenter":https://github.com/scrooloose/nerdcommenter.git
-* "dbext.vim":https://github.com/edsono/vim-dbext.git
-* "cucumber.vim":https://github.com/tpope/vim-cucumber.git
-* "fugitive.vim":https://github.com/tpope/vim-fugitive.git
-* "surround.vim":https://github.com/tpope/vim-surround.git
-* "TailMinusF":https://github.com/vim-scripts/TailMinusF.git
-* "delimitMate":https://github.com/Raimondi/delimitMate.git
-* "endwise.vim":https://github.com/tpope/vim-endwise.git
-* "Textile":https://github.com/timcharper/textile.vim.git
-* "Pastie":https://github.com/tpope/vim-pastie.git
-* "vim-snipate":https://github.com/garbas/vim-snipmate.git
-* "zencoding-vim":https://github.com/mattn/zencoding-vim.git
-* "YankRing":https://github.com/chrismetcalf/vim-yankring.git
-* "gist.vim":https://github.com/mattn/gist-vim.git
+* "rails.vim":https://github.com/tpope/vim-rails
+* "Command-T":git://git.wincent.com/command-t
+* "NERD Tree":https://github.com/scrooloose/nerdtree
+* "NERD Commenter":https://github.com/scrooloose/nerdcommenter
+* "dbext.vim":https://github.com/edsono/vim-dbext
+* "cucumber.vim":https://github.com/tpope/vim-cucumber
+* "fugitive.vim":https://github.com/tpope/vim-fugitive
+* "surround.vim":https://github.com/tpope/vim-surround
+* "TailMinusF":https://github.com/vim-scripts/TailMinusF
+* "delimitMate":https://github.com/Raimondi/delimitMate
+* "endwise.vim":https://github.com/tpope/vim-endwise
+* "Textile":https://github.com/timcharper/textile.vim
+* "Pastie":https://github.com/tpope/vim-pastie
+* "vim-snipate":https://github.com/garbas/vim-snipmate
+* "zencoding-vim":https://github.com/mattn/zencoding-vim
+* "YankRing":https://github.com/chrismetcalf/vim-yankring
+* "gist.vim":https://github.com/mattn/gist-vim
 * "vim-haml":https://github.com/tpope/vim-haml
-* "extradite.vim":http://int3.github.com/vim-extradite/
+* "extradite.vim":http://int3hub.com/vim-extradite/
 * "ack.vim":https://github.com/mileszs/ack.vim
 * "jslint.vim":https://github.com/hallettj/jslint.vim
 * "vim-coffee-script":https://github.com/kchmck/vim-coffee-script
@@ -33,4 +33,10 @@ The colorscheme of my choice is "twilight":http://www.vim.org/scripts/script.php
 
 h2. Installation
 
-Put the files inside the user's home directiory.
+Put .vimrc and .gvimrc inside the user's home directiory. Then install "pathogen.vim":http://www.vim.org/scripts/script.php?script_id=2332 and git clone the plugins to ~/.vim/bundle/ directory.
+
+For Command-T after cloning to 'bundle' directory:
+
+bc. cd ~/.vim/bundle/command-t
+rake make
+
