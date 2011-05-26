@@ -13,6 +13,7 @@ set encoding=utf-8
 
 set nobackup
 set noswapfile
+set backupcopy=yes
 
 set autoindent
 set smarttab
