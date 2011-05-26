@@ -17,7 +17,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "endwise.vim":https://github.com/tpope/vim-endwise
 * "Textile":https://github.com/timcharper/textile.vim
 * "Pastie":https://github.com/tpope/vim-pastie
-* "vim-snipate":https://github.com/garbas/vim-snipmate
+* "vim-snipmate":https://github.com/garbas/vim-snipmate
 * "zencoding-vim":https://github.com/mattn/zencoding-vim
 * "YankRing":https://github.com/chrismetcalf/vim-yankring
 * "gist.vim":https://github.com/mattn/gist-vim
