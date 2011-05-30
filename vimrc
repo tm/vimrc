@@ -75,6 +75,12 @@ set linebreak
 set mousehide
 set mouse=a
 
+"indentation
+nmap <D-[> <<
+nmap <D-]> >>
+vmap <D-[> <gv
+vmap <D-]> >gv
+
 
 
 filetype plugin on
