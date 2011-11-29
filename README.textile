@@ -5,7 +5,6 @@ My vim dotfiles (.vimrc, .givmrc) I use "MacVim":http://code.google.com/p/macvim
 Some stuff in the config files is related to the plugins I have installed (most of them are specific to Ruby on Rails development).
 
 * "rails.vim":https://github.com/tpope/vim-rails
-* "Command-T":https://wincent.com/products/command-t
 * "NERD Tree":https://github.com/scrooloose/nerdtree
 * "NERD Commenter":https://github.com/scrooloose/nerdcommenter
 * "dbext.vim":https://github.com/edsono/vim-dbext
@@ -17,7 +16,6 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "endwise.vim":https://github.com/tpope/vim-endwise
 * "Textile":https://github.com/timcharper/textile.vim
 * "Pastie":https://github.com/tpope/vim-pastie
-* "vim-snipmate":https://github.com/garbas/vim-snipmate
 * "zencoding-vim":https://github.com/mattn/zencoding-vim
 * "YankRing":https://github.com/chrismetcalf/vim-yankring
 * "gist.vim":https://github.com/mattn/gist-vim
@@ -30,15 +28,10 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "rvm.vim":https://github.com/csexton/rvm.vim
 * "tabular":https://github.com/godlygeek/tabular.git
 * "UltiSnips":https://github.com/rygwdn/ultisnips
+* "PeepOpen":http://peepcode.com/products/peepopen
 
 The colorscheme of my choice is "twilight":http://www.vim.org/scripts/script.php?script_id=1677.
 
 h2. Installation
 
 Put .vimrc and .gvimrc inside the user's home directiory. Then install "pathogen.vim":http://www.vim.org/scripts/script.php?script_id=2332 and git clone the plugins to ~/.vim/bundle/ directory.
-
-For Command-T after cloning to 'bundle' directory:
-
-bc. cd ~/.vim/bundle/command-t
-rake make
-

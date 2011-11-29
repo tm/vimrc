@@ -122,7 +122,7 @@ imap <C-l> <Space>=><Space>
 let g:rails_default_file='config/database.yml'
 
 " Command-T configuration
-let g:CommandTMaxHeight=20
+" let g:CommandTMaxHeight=20
 
 " NERDTree configuration
 let NERDTreeShowHidden=1
