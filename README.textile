@@ -11,6 +11,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "cucumber.vim":https://github.com/tpope/vim-cucumber
 * "fugitive.vim":https://github.com/tpope/vim-fugitive
 * "surround.vim":https://github.com/tpope/vim-surround
+* "repeat.vim":https://github.com/tpope/vim-repeat
 * "TailMinusF":https://github.com/vim-scripts/TailMinusF
 * "delimitMate":https://github.com/Raimondi/delimitMate
 * "endwise.vim":https://github.com/tpope/vim-endwise
