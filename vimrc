@@ -23,7 +23,7 @@ set wrap
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-set showbreak=:::
+"set showbreak=:::
 set listchars=tab:▶\ ,eol:¶
 set expandtab
 
@@ -115,7 +115,7 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 
-" Ruby mappings
+" Ruby hashrocket mapping
 imap <C-l> <Space>=><Space>
 
 " rails.vim configuration
@@ -133,3 +133,8 @@ nnoremap <silent> <F11> :YRShow<CR>
 
 " Gist configuration
 let g:gist_open_browser_after_post = 1
+
+"UltiSnips configuration
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
