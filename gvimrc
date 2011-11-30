@@ -9,6 +9,7 @@ set relativenumber
 colorscheme twilight
 highlight StatusLineNC guibg=White
 highlight StatusLine guibg=DarkRed
+highlight Search gui=NONE guibg=Orange guifg=Navy 
 
 " PeepOpen configuration
 macmenu &File.New\ Tab key=<nop>
