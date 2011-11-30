@@ -106,6 +106,9 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
+" TextMate style Command-Return
+inoremap <D-CR> <C-O>o
+
 " indentation
 nmap <D-[> <<
 nmap <D-]> >>
