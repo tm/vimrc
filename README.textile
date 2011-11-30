@@ -27,7 +27,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "vim-coffee-script":https://github.com/kchmck/vim-coffee-script
 * "vim-ragtag":https://github.com/tpope/vim-ragtag
 * "rvm.vim":https://github.com/csexton/rvm.vim
-* "tabular":https://github.com/godlygeek/tabular.git
+* "tabular":https://github.com/godlygeek/tabular
 * "UltiSnips":https://github.com/rygwdn/ultisnips
 * "PeepOpen":http://peepcode.com/products/peepopen
 
