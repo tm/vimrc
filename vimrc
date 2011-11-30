@@ -142,7 +142,8 @@ nnoremap <silent> <F11> :YRShow<CR>
 let g:gist_open_browser_after_post = 1
 
 "UltiSnips configuration
+set runtimepath+=~/vim
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "snippets"]
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-

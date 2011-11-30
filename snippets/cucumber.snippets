@@ -1,0 +1,42 @@
+global !p
+def deunderscorize(inp):
+    return inp.replace('_', ' ').capitalize()
+endglobal
+
+snippet fea "Feature"
+Feature: ${1:`!p snip.rv = deunderscorize(snip.basename)`}
+  In order to $2 
+  As ${3:a user}
+  I want to $4 
+
+  $0
+endsnippet
+
+snippet bg "Background"
+Background:
+  $0
+endsnippet
+
+snippet sc "Senario"
+Scenario: $0
+endsnippet
+
+snippet giv "Given"
+Given $0
+endsnippet
+
+snippet whe "When"
+When $0
+endsnippet
+
+snippet the "Then"
+Then $0
+endsnippet
+
+snippet and "And"
+And $0
+endsnippet
+
+snippet but "But"
+But $0
+endsnippet
