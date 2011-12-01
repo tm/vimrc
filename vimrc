@@ -142,6 +142,7 @@ nnoremap <silent> <F11> :YRShow<CR>
 let g:gist_open_browser_after_post = 1
 
 "UltiSnips configuration
+set virtualedit=onemore
 set runtimepath+=~/vim
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "snippets"]
 let g:UltiSnipsExpandTrigger="<tab>"
@@ -165,3 +166,9 @@ function! s:align()
     call search(repeat('[^|]*|',column).'\s\{-\}'.repeat('.',position),'ce',line('.'))
   endif
 endfunction
+
+" ZenCoding mapping
+let g:user_zen_expandabbr_key = '<D-e>'
+
+" setting Rails filetypes
+autocmd BufNewFile,BufRead app/**/*.rb set filetype=ruby.rails

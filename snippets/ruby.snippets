@@ -1,0 +1,9 @@
+snippet : ":<key> => '<value>'"
+:${1:key} => ${2:"${3:value}"}${4:, }
+endsnippet
+
+snippet "\b(de)?f" "def <method>" r!
+def ${1:name}
+  ${2}
+end
+endsnippet
