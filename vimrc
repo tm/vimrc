@@ -24,7 +24,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 "set showbreak=:::
-set listchars=tab:▶\ ,eol:¶
+set listchars=tab:▶-,eol:¶,trail:‧
 set expandtab
 
 " Searching
@@ -66,11 +66,13 @@ set visualbell t_vb=
 set hidden
 set history=1000
 set scrolloff=3
+set so=8
 
 " Display settings
 set display+=lastline
 set showmode
 set formatoptions+=1
+set formatoptions-=o " don't continue comments when pushing o/O
 set linebreak
 set mousehide
 set mouse=a
@@ -88,7 +90,7 @@ nnoremap <tab> %
 vnoremap <tab> %
 map <D-r> <ESC>:w !ruby "%"<CR>
 map! <D-r> <ESC>:w !ruby "%"<CR>
-nmap <silent> ,/ :nohlsearch<CR>
+nmap <silent> // :nohlsearch<CR>
 nmap k gk
 nmap j gj
 vmap k gk
@@ -96,15 +98,6 @@ vmap j gj
 sunmap k
 sunmap j
 nnoremap <leader>l :set list!<CR>
-
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
 
 " TextMate style Command-Return
 inoremap <D-CR> <C-O>o
@@ -120,6 +113,13 @@ map <C-k> <C-W>k
 map <C-j> <C-W>j
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+" crerate window splits easier
+nnoremap <silent> vv <C-w>v
+nnoremap <silent> ss <C-w>s
+
+" don't have to use Shift to get into command mode
+nnoremap ; :
 
 
 " Ruby hashrocket mapping
