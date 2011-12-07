@@ -6,7 +6,7 @@ set columns=120
 set transparency=0
 "set relativenumber
 
-set background=dark
+set background=light
 colorscheme solarized
 "highlight StatusLineNC guibg=White
 "highlight StatusLine guibg=DarkRed
