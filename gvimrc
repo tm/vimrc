@@ -2,14 +2,15 @@ set guifont=Menlo:h12
 set guioptions=aAcer
 
 set lines=46
-set columns=160
-set transparency=5
-set relativenumber
+set columns=120
+set transparency=0
+"set relativenumber
 
-colorscheme twilight
-highlight StatusLineNC guibg=White
-highlight StatusLine guibg=DarkRed
-highlight Search gui=NONE guibg=Orange guifg=Navy 
+set background=dark
+colorscheme solarized
+"highlight StatusLineNC guibg=White
+"highlight StatusLine guibg=DarkRed
+"highlight Search gui=NONE guibg=Orange guifg=Navy 
 
 " PeepOpen configuration
 macmenu &File.New\ Tab key=<nop>

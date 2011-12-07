@@ -31,7 +31,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "UltiSnips":https://github.com/rygwdn/ultisnips
 * "PeepOpen":http://peepcode.com/products/peepopen
 
-The colorscheme of my choice is "twilight":http://www.vim.org/scripts/script.php?script_id=1677.
+The colorscheme of my choice is "solarized":http://ethanschoonover.com/solarized
 
 h2. Installation
 

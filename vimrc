@@ -76,6 +76,7 @@ set formatoptions-=o " don't continue comments when pushing o/O
 set linebreak
 set mousehide
 set mouse=a
+set number
 
 
 filetype plugin on
@@ -172,3 +173,7 @@ let g:user_zen_expandabbr_key = '<D-e>'
 
 " setting Rails filetypes
 autocmd BufNewFile,BufRead app/**/*.rb set filetype=ruby.rails
+autocmd BufNewFile,BufRead spec/**/*rb set filetype=ruby.rspec
+
+" Use Node.js for JavaScript interpretation
+let $JS_CMD='node'
