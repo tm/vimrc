@@ -176,5 +176,9 @@ autocmd BufNewFile,BufRead spec/**/*rb set filetype=ruby.rspec
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
 
-" CtrlP
-let g:ctrlp_map = '<D-p>'
+" CtrlP configuration
+map <D-t> :CtrlP<CR>
+imap <D-t> <Esc>:CtrlP<CR>
+set wildignore+=*/.git/*
+let g:ctrlp_regexp_search = 1
+let g:ctrlp_open_new_file = 0

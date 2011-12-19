@@ -14,7 +14,7 @@ colorscheme solarized
 "highlight StatusLine guibg=DarkRed
 "highlight Search gui=NONE guibg=Orange guifg=Navy 
 
-" PeepOpen configuration
-macmenu &File.New\ Tab key=<nop>
-map <D-t> :PeepOpen<CR>
-imap <D-t> <Esc>:PeepOpen<CR>
+" disable New Tab for plugins like CtrlP
+if has('mac')
+  macmenu &File.New\ Tab key=<nop>
+endif
