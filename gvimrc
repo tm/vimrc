@@ -1,5 +1,7 @@
 set guifont=Menlo:h12
 set guioptions=aAcer
+set linespace=2
+set antialias
 
 set lines=46
 set columns=120

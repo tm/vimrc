@@ -60,7 +60,7 @@ set showcmd
 set showmatch
 set cmdheight=2
 set cursorline
-set cursorcolumn
+" set cursorcolumn
 set matchtime=5
 set timeoutlen=2000
 set visualbell t_vb=
@@ -130,9 +130,6 @@ imap <C-l> <Space>=><Space>
 " rails.vim configuration
 let g:rails_default_file='config/database.yml'
 
-" Command-T configuration
-" let g:CommandTMaxHeight=20
-
 " NERDTree configuration
 let NERDTreeShowHidden=1
 map <leader>n :NERDTreeToggle<CR>
@@ -178,3 +175,6 @@ autocmd BufNewFile,BufRead spec/**/*rb set filetype=ruby.rspec
 
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
+
+" CtrlP
+let g:ctrlp_map = '<D-p>'
