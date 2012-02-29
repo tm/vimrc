@@ -104,6 +104,12 @@ nnoremap <leader>l :set list!<CR>
 " TextMate style Command-Return
 inoremap <D-CR> <C-O>o
 
+" automatically append closing characters
+inoremap {      {}<Left>
+inoremap {<CR>  {<CR>}<ESC>O
+inoremap {{     {
+inoremap {}     {}
+
 " indentation
 nmap <D-[> <<
 nmap <D-]> >>
@@ -167,7 +173,7 @@ function! s:align()
 endfunction
 
 " ZenCoding mapping
-let g:user_zen_expandabbr_key = '<D-e>'
+" let g:user_zen_expandabbr_key = '<D-e>'
 
 " setting Rails filetypes
 autocmd BufNewFile,BufRead app/**/*.rb set filetype=ruby.rails
@@ -175,6 +181,7 @@ autocmd BufNewFile,BufRead spec/**/*rb set filetype=ruby.rspec
 
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
+let g:JSLintHighlightErrorLine = 0
 
 " CtrlP configuration
 map <D-t> :CtrlP<CR>
@@ -182,3 +189,5 @@ imap <D-t> <Esc>:CtrlP<CR>
 set wildignore+=*/.git/*
 let g:ctrlp_regexp_search = 1
 let g:ctrlp_open_new_file = 0
+let g:ctrlp_open_multi = '1t'
+let g:ctrlp_working_path_mode = 2
