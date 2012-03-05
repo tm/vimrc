@@ -32,6 +32,8 @@ Some stuff in the config files is related to the plugins I have installed (most 
 *  "vim-bundler":https://github.com/tpope/vim-bundler
 * "ctrlp.vim":https://github.com/kien/ctrlp.vim
 * "vim-pasta":https://github.com/sickill/vim-pasta
+* "mustache.vim":https://github.com/juvenn/mustache.vim
+* "vim-markdown":https://github.com/tpope/vim-markdown.git
 
 I use "solarized":http://ethanschoonover.com/solarized colorscheme.
 

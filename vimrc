@@ -186,7 +186,7 @@ let g:JSLintHighlightErrorLine = 0
 " CtrlP configuration
 map <D-t> :CtrlP<CR>
 imap <D-t> <Esc>:CtrlP<CR>
-set wildignore+=*/.git/*
+set wildignore+=*/.git/*,*/tmp/*
 let g:ctrlp_regexp_search = 1
 let g:ctrlp_open_new_file = 0
 let g:ctrlp_open_multi = '1t'
