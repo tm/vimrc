@@ -59,7 +59,7 @@ set backspace=2
 set showcmd
 set showmatch
 set cmdheight=2
-set cursorline
+" set cursorline disabled because of performance problems
 " set cursorcolumn
 set matchtime=5
 set timeoutlen=2000

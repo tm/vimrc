@@ -26,14 +26,16 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "jslint.vim":https://github.com/hallettj/jslint.vim
 * "vim-coffee-script":https://github.com/kchmck/vim-coffee-script
 * "vim-ragtag":https://github.com/tpope/vim-ragtag
-* "rvm.vim":https://github.com/csexton/rvm.vim
+* "vim-rvm":https://github.com/tpope/vim-rvm
 * "tabular":https://github.com/godlygeek/tabular
-* "UltiSnips":https://github.com/SirVer/ultisnips.git
+* "UltiSnips":https://github.com/SirVer/ultisnips
 *  "vim-bundler":https://github.com/tpope/vim-bundler
 * "ctrlp.vim":https://github.com/kien/ctrlp.vim
 * "vim-pasta":https://github.com/sickill/vim-pasta
 * "mustache.vim":https://github.com/juvenn/mustache.vim
-* "vim-markdown":https://github.com/tpope/vim-markdown.git
+* "vim-markdown":https://github.com/tpope/vim-markdown
+* "vim-slim":https://github.com/bbommarito/vim-slim
+* "vim-less":https://github.com/groenewege/vim-less
 
 I use "solarized":http://ethanschoonover.com/solarized colorscheme.
 
