@@ -8,8 +8,8 @@ set columns=120
 set transparency=0
 "set relativenumber
 
-set background=light
-colorscheme solarized
+set background=dark
+colorscheme twilight
 "highlight StatusLineNC guibg=White
 "highlight StatusLine guibg=DarkRed
 "highlight Search gui=NONE guibg=Orange guifg=Navy 

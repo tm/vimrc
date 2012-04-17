@@ -78,6 +78,7 @@ set linebreak
 set mousehide
 set mouse=a
 set number
+set lazyredraw
 
 
 filetype plugin on
@@ -92,7 +93,7 @@ nnoremap <tab> %
 vnoremap <tab> %
 map <D-r> <ESC>:w !ruby "%"<CR>
 map! <D-r> <ESC>:w !ruby "%"<CR>
-nnoremap ; :set invhlsearch<CR>
+nnoremap <leader>; <ESC>:nohls<CR>
 nmap k gk
 nmap j gj
 vmap k gk
