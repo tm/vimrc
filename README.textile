@@ -2,7 +2,7 @@ h1. MacVimrc
 
 My vim dotfiles (.vimrc, .givmrc) I use "MacVim":http://code.google.com/p/macvim/ on Mac OS X, but most of the settings should work with Linux or Windows versions of Vim.
 
-Some stuff in the config files is related to the plugins I have installed (most of them are specific to Ruby on Rails development).
+Some stuff in the config files is related to the plugins I have installed (most of them are specific to Ruby on Rails and JavaScript development).
 
 * "rails.vim":https://github.com/tpope/vim-rails
 * "NERD Tree":https://github.com/scrooloose/nerdtree
@@ -36,8 +36,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "vim-markdown":https://github.com/tpope/vim-markdown
 * "vim-slim":https://github.com/bbommarito/vim-slim
 * "vim-less":https://github.com/groenewege/vim-less
-
-I use "solarized":http://ethanschoonover.com/solarized colorscheme.
+* "solarized":http://ethanschoonover.com/solarized
 
 h2. Installation
 

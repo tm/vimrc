@@ -10,9 +10,9 @@ set transparency=0
 
 set background=dark
 colorscheme twilight
-"highlight StatusLineNC guibg=White
-"highlight StatusLine guibg=DarkRed
-"highlight Search gui=NONE guibg=Orange guifg=Navy 
+highlight StatusLineNC guibg=White
+highlight StatusLine guibg=DarkRed
+highlight Search gui=NONE guibg=Orange guifg=Navy 
 
 " disable New Tab for plugins like CtrlP
 if has('mac')

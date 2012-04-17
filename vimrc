@@ -85,7 +85,7 @@ filetype plugin on
 filetype indent on
 
 " change the mapleader from \ to ,
-"let mapleader=","
+let mapleader=","
 
 nnoremap / /\v
 vnoremap / /\v
