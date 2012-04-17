@@ -69,7 +69,7 @@ set history=1000
 set scrolloff=3
 set so=8
 
-" Display settings
+"" Display settings
 set display+=lastline
 set showmode
 set formatoptions+=1
@@ -84,7 +84,7 @@ filetype plugin on
 filetype indent on
 
 " change the mapleader from \ to ,
-let mapleader=","
+"let mapleader=","
 
 nnoremap / /\v
 vnoremap / /\v
@@ -92,7 +92,7 @@ nnoremap <tab> %
 vnoremap <tab> %
 map <D-r> <ESC>:w !ruby "%"<CR>
 map! <D-r> <ESC>:w !ruby "%"<CR>
-nmap <silent> // :nohlsearch<CR>
+nnoremap ; :set invhlsearch<CR>
 nmap k gk
 nmap j gj
 vmap k gk
@@ -125,9 +125,6 @@ map <C-l> <C-W>l
 " crerate window splits easier
 nnoremap <silent> vv <C-w>v
 nnoremap <silent> ss <C-w>s
-
-" don't have to use Shift to get into command mode
-nnoremap ; :
 
 
 " Ruby hashrocket mapping
