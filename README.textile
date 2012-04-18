@@ -1,5 +1,14 @@
 h1. vimrc
 
-My vim dotfiles (.vimrc, .givmrc) I use "MacVim":http://code.google.com/p/macvim/ on Mac OS X, but most of the settings should work with Linux or Windows versions of Vim.
+My vim dotfiles (.vimrc, .givmrc) I use for "MacVim":http://code.google.com/p/macvim/ on Mac.
 
 Some stuff in the config files is related to the plugins I have installed (most of them are specific to Ruby on Rails and JavaScript development).
+
+h2. Installation
+
+`git clone https://github.com/tm/vimrc.git .vim` in your home directory.
+
+h2. Keeping up to date
+
+`cd ~/.vim`
+`git submodule foreach git pull origin master`
