@@ -29,7 +29,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 * "vim-rvm":https://github.com/tpope/vim-rvm
 * "tabular":https://github.com/godlygeek/tabular
 * "UltiSnips":https://github.com/SirVer/ultisnips
-*  "vim-bundler":https://github.com/tpope/vim-bundler
+* "vim-bundler":https://github.com/tpope/vim-bundler
 * "ctrlp.vim":https://github.com/kien/ctrlp.vim
 * "vim-pasta":https://github.com/sickill/vim-pasta
 * "mustache.vim":https://github.com/juvenn/mustache.vim

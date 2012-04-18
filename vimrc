@@ -1,10 +1,7 @@
 set nocompatible
 
 " Pathogen call
-filetype off 
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
-
+call pathogen#infect()
 
 set ruler
 syntax on
