@@ -1,43 +1,5 @@
-h1. MacVimrc
+h1. vimrc
 
 My vim dotfiles (.vimrc, .givmrc) I use "MacVim":http://code.google.com/p/macvim/ on Mac OS X, but most of the settings should work with Linux or Windows versions of Vim.
 
 Some stuff in the config files is related to the plugins I have installed (most of them are specific to Ruby on Rails and JavaScript development).
-
-* "rails.vim":https://github.com/tpope/vim-rails
-* "NERD Tree":https://github.com/scrooloose/nerdtree
-* "NERD Commenter":https://github.com/scrooloose/nerdcommenter
-* "dbext.vim":https://github.com/edsono/vim-dbext
-* "cucumber.vim":https://github.com/tpope/vim-cucumber
-* "fugitive.vim":https://github.com/tpope/vim-fugitive
-* "surround.vim":https://github.com/tpope/vim-surround
-* "repeat.vim":https://github.com/tpope/vim-repeat
-* "TailMinusF":https://github.com/vim-scripts/TailMinusF
-* "delimitMate":https://github.com/Raimondi/delimitMate
-* "endwise.vim":https://github.com/tpope/vim-endwise
-* "Textile":https://github.com/timcharper/textile.vim
-* "Pastie":https://github.com/tpope/vim-pastie
-* "zencoding-vim":https://github.com/mattn/zencoding-vim
-* "YankRing":https://github.com/chrismetcalf/vim-yankring
-* "gist.vim":https://github.com/mattn/gist-vim
-* "vim-haml":https://github.com/tpope/vim-haml
-* "extradite.vim":https://github.com/int3/vim-extradite
-* "ack.vim":https://github.com/mileszs/ack.vim
-* "jslint.vim":https://github.com/hallettj/jslint.vim
-* "vim-coffee-script":https://github.com/kchmck/vim-coffee-script
-* "vim-ragtag":https://github.com/tpope/vim-ragtag
-* "vim-rvm":https://github.com/tpope/vim-rvm
-* "tabular":https://github.com/godlygeek/tabular
-* "UltiSnips":https://github.com/SirVer/ultisnips
-* "vim-bundler":https://github.com/tpope/vim-bundler
-* "ctrlp.vim":https://github.com/kien/ctrlp.vim
-* "vim-pasta":https://github.com/sickill/vim-pasta
-* "mustache.vim":https://github.com/juvenn/mustache.vim
-* "vim-markdown":https://github.com/tpope/vim-markdown
-* "vim-slim":https://github.com/bbommarito/vim-slim
-* "vim-less":https://github.com/groenewege/vim-less
-* "solarized":http://ethanschoonover.com/solarized
-
-h2. Installation
-
-Put .vimrc and .gvimrc inside the user's home directiory. Then install "pathogen.vim":http://www.vim.org/scripts/script.php?script_id=2332 and git clone the plugins to ~/.vim/bundle/ directory.
