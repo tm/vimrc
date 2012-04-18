@@ -10,5 +10,5 @@ h2. Installation
 
 h2. Keeping up to date
 
-`cd ~/.vim`
-`git submodule foreach git pull origin master`
+    cd ~/.vim
+    git submodule foreach git pull origin master
