@@ -58,6 +58,8 @@ set fileformats=unix,dos
 set backspace=2
 set showcmd
 set showmatch
+" avoid showing matching parenthesis in normal mode
+let loaded_matchparen = 1
 set cmdheight=2
 " set cursorline disabled because of performance problems
 " set cursorcolumn
@@ -93,7 +95,7 @@ nnoremap <tab> %
 vnoremap <tab> %
 map <D-r> <ESC>:w !ruby "%"<CR>
 map! <D-r> <ESC>:w !ruby "%"<CR>
-nnoremap <leader>; <ESC>:nohls<CR>
+nmap <silent> <leader>/ :nohlsearch<CR>
 nmap k gk
 nmap j gj
 vmap k gk
