@@ -176,6 +176,9 @@ endfunction
 autocmd BufNewFile,BufRead app/**/*.rb set filetype=ruby.rails
 autocmd BufNewFile,BufRead spec/**/*rb set filetype=ruby.rspec
 
+" setting ejs templates to html syntax
+autocmd BufNewFile,BufRead *.ejs set filetype=html
+
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
 let g:JSLintHighlightErrorLine = 0
