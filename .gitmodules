@@ -49,9 +49,6 @@
 [submodule "bundle/zencoding-vim"]
 	path = bundle/zencoding-vim
 	url = https://github.com/mattn/zencoding-vim.git
-[submodule "bundle/vim-yankring"]
-	path = bundle/vim-yankring
-	url = https://github.com/chrismetcalf/vim-yankring.git
 [submodule "bundle/gist-vim"]
 	path = bundle/gist-vim
 	url = https://github.com/mattn/gist-vim.git
