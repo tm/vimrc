@@ -2,6 +2,7 @@ set nocompatible
 
 " Pathogen call
 call pathogen#infect()
+call pathogen#helptags()
 
 set ruler
 syntax on
