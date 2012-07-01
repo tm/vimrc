@@ -170,8 +170,6 @@ function! s:align()
   endif
 endfunction
 
-" ZenCoding mapping
-" let g:user_zen_expandabbr_key = '<D-e>'
 
 " setting Rails filetypes
 autocmd BufNewFile,BufRead app/**/*.rb set filetype=ruby.rails
