@@ -109,3 +109,6 @@
 [submodule "bundle/Yankring.vim"]
 	path = bundle/Yankring.vim
 	url = https://github.com/vim-scripts/YankRing.vim
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git

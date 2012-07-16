@@ -190,3 +190,9 @@ let g:ctrlp_regexp_search = 1
 let g:ctrlp_open_new_file = 0
 let g:ctrlp_open_multi = '1t'
 let g:ctrlp_working_path_mode = 2
+
+" Zencoding mappings
+imap <D-e> <C-y>,
+imap <D-E> <C-y>n
+imap <C-S-e> <C-y>N
+
