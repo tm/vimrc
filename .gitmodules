@@ -115,13 +115,7 @@
 	path = bundle/Yankring.vim
 	url = https://github.com/vim-scripts/YankRing.vim
   ignore = dirty
-[submodule "bundle/vim-unimpaired"]
-	path = bundle/vim-unimpaired
-	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "bundle/vim-conque"]
 	path = bundle/vim-conque
   url = https://github.com/rson/vim-conque.git
   ignore = dirty
-[submodule "bundle/vim-ruby-conque"]
-	path = bundle/vim-ruby-conque
-	url = https://github.com/skwp/vim-ruby-conque.git
