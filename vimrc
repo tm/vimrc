@@ -183,8 +183,8 @@ let $JS_CMD='node'
 let g:JSLintHighlightErrorLine = 0
 
 " CtrlP configuration
-map <D-t> :CtrlP<CR>
-imap <D-t> <Esc>:CtrlP<CR>
+map <D-t> :CtrlPMixed<CR>
+imap <D-t> <Esc>:CtrlPMixed<CR>
 set wildignore+=*/.git/*,*/tmp/*
 let g:ctrlp_regexp_search = 1
 let g:ctrlp_open_new_file = 0
