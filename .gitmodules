@@ -119,3 +119,6 @@
 	path = bundle/vim-conque
   url = https://github.com/rson/vim-conque.git
   ignore = dirty
+[submodule "bundle/vim-ruby-conque"]
+	path = bundle/vim-ruby-conque
+	url = https://github.com/skwp/vim-ruby-conque.git
