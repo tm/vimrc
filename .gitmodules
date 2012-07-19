@@ -31,6 +31,7 @@
 [submodule "bundle/TailMinusF"]
 	path = bundle/TailMinusF
 	url = https://github.com/vim-scripts/TailMinusF.git
+  ignore = dirty
 [submodule "bundle/vim-twilight"]
 	path = bundle/vim-twilight
 	url = https://github.com/matthewtodd/vim-twilight
@@ -43,9 +44,11 @@
 [submodule "bundle/textile.vim"]
 	path = bundle/textile.vim
 	url = https://github.com/timcharper/textile.vim.git
+  ignore = dirty
 [submodule "bundle/vim-pastie"]
 	path = bundle/vim-pastie
 	url = https://github.com/tpope/vim-pastie.git
+  ignore = dirty
 [submodule "bundle/zencoding-vim"]
 	path = bundle/zencoding-vim
 	url = https://github.com/mattn/zencoding-vim.git
@@ -70,6 +73,7 @@
 [submodule "bundle/vim-ragtag"]
 	path = bundle/vim-ragtag
 	url = https://github.com/tpope/vim-ragtag.git
+  ignore = dirty
 [submodule "bundle/vim-rvm"]
 	path = bundle/vim-rvm
 	url = https://github.com/tpope/vim-rvm.git
@@ -79,6 +83,7 @@
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
+  ignore = dirty
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
 	url = https://github.com/tpope/vim-bundler.git
@@ -109,9 +114,14 @@
 [submodule "bundle/Yankring.vim"]
 	path = bundle/Yankring.vim
 	url = https://github.com/vim-scripts/YankRing.vim
+  ignore = dirty
 [submodule "bundle/vim-unimpaired"]
 	path = bundle/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "bundle/vim-conque"]
 	path = bundle/vim-conque
-	url = https://github.com/rson/vim-conque.git
+  url = https://github.com/rson/vim-conque.git
+  ignore = dirty
+[submodule "bundle/vim-ruby-conque"]
+	path = bundle/vim-ruby-conque
+	url = https://github.com/skwp/vim-ruby-conque.git
