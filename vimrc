@@ -17,7 +17,7 @@ set autoindent
 set smarttab
 
 "Whitespace stuff
-set wrap
+set nowrap
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
