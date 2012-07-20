@@ -123,6 +123,3 @@
 	path = bundle/vim-ruby-conque
 	url = https://github.com/skwp/vim-ruby-conque.git
   ignore = dirty
-[submodule "bundle/tomorrow-theme"]
-	path = bundle/tomorrow-theme
-	url = https://github.com/chriskempson/tomorrow-theme.git
