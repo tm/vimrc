@@ -129,3 +129,6 @@
 [submodule "bundle/Lucius"]
 	path = bundle/Lucius
 	url = https://github.com/vim-scripts/Lucius.git
+[submodule "bundle/Mustang2"]
+	path = bundle/Mustang2
+	url = https://github.com/vim-scripts/Mustang2.git
