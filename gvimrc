@@ -9,10 +9,10 @@ set transparency=0
 "set relativenumber
 
 set background=dark
-colorscheme twilight
-highlight StatusLineNC guibg=White
+colorscheme codeschool
+"highlight StatusLineNC guibg=White
 highlight StatusLine guibg=DarkRed
-highlight Search gui=NONE guibg=Orange guifg=Navy 
+"highlight Search gui=NONE guibg=Orange guifg=Navy 
 
 " disable New Tab for plugins like CtrlP
 if has('mac')

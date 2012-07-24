@@ -4,6 +4,8 @@ set nocompatible
 call pathogen#infect()
 call pathogen#helptags()
 
+set shell=bash
+
 set ruler
 syntax on
 

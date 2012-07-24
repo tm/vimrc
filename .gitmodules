@@ -126,3 +126,6 @@
 [submodule "bundle/codeschool-vim-theme"]
 	path = bundle/codeschool-vim-theme
 	url = https://github.com/29decibel/codeschool-vim-theme.git
+[submodule "bundle/Lucius"]
+	path = bundle/Lucius
+	url = https://github.com/vim-scripts/Lucius.git
