@@ -8,6 +8,8 @@ set shell=bash
 
 set ruler
 syntax on
+filetype plugin on
+filetype indent on
 
 set encoding=utf-8
 
@@ -20,6 +22,7 @@ set smarttab
 
 "Whitespace stuff
 set nowrap
+set colorcolumn=72
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
@@ -81,10 +84,6 @@ set mousehide
 set mouse=a
 set number
 set lazyredraw
-
-
-filetype plugin on
-filetype indent on
 
 " change the mapleader from \ to ,
 let mapleader=","
@@ -185,8 +184,8 @@ let $JS_CMD='node'
 let g:JSLintHighlightErrorLine = 0
 
 " CtrlP configuration
-map <D-t> :CtrlPMixed<CR>
-imap <D-t> <Esc>:CtrlPMixed<CR>
+map <D-t> :CtrlP<CR>
+imap <D-t> <Esc>:CtrlP<CR>
 set wildignore+=*/.git/*,*/tmp/*
 let g:ctrlp_regexp_search = 1
 let g:ctrlp_open_new_file = 0
@@ -197,4 +196,5 @@ let g:ctrlp_working_path_mode = 2
 imap <D-e> <C-y>,
 imap <D-E> <C-y>n
 imap <C-S-e> <C-y>N
+
 
