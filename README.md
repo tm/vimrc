@@ -7,7 +7,7 @@ Some stuff in the config files is related to the plugins I have installed (most 
 
 ## Installation
 
-`git clone https://github.com/tm/vimrc.git .vim` in your home directory.
+`git clone --recursive https://github.com/tm/vimrc.git .vim` in your home directory.
 
 ## Keeping up to date
 
