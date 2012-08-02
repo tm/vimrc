@@ -43,7 +43,7 @@ set wildmenu
 
 " Status bar
 set laststatus=2
-set statusline=%F%m%r%h%w\ (%{&ff},\ %{\"\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"\"}){%Y}[%04l,%04v][%p%%][LEN=%L]
+set statusline=%F%m%r%h%w\ (%{&ff},\ %{\"\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"\"}){%Y}[%03l,%03v][%p%%][LEN=%L]
 " fugitive part of status line
 set statusline+=%{fugitive#statusline()}
 " rvm part of status line
@@ -92,8 +92,6 @@ nnoremap / /\v
 vnoremap / /\v
 nnoremap <tab> %
 vnoremap <tab> %
-map <D-r> <ESC>:w !ruby "%"<CR>
-map! <D-r> <ESC>:w !ruby "%"<CR>
 nmap <silent> <leader>/ :nohlsearch<CR>
 nmap k gk
 nmap j gj
@@ -197,4 +195,7 @@ imap <D-e> <C-y>,
 imap <D-E> <C-y>n
 imap <C-S-e> <C-y>N
 
-
+" Ruby Conque mappings
+nmap <silent> <D-R> :call RunRspecCurrentFileConque()<CR>
+nmap <silent> <D-L> :call RunRspecCurrentLineConque()<CR>
+nmap <silent> ,<D-R> :call RunLastConqueCommand()<CR>
