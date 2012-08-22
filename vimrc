@@ -28,6 +28,7 @@ set shiftwidth=2
 set softtabstop=2
 "set showbreak=:::
 set listchars=tab:▶-,trail:.
+set list
 set expandtab
 
 " Searching

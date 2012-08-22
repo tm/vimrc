@@ -1,0 +1,29 @@
+snippet des "Describe"
+describe "${1:subject}" do
+  $0
+end
+endsnippet
+
+snippet dest "Describe_type"
+describe ${1:Type} do
+  $0
+end
+endsnippet
+
+snippet dests "Describe_type_string"
+describe ${1:Type}, "${2:description}" do
+  $0
+end
+endsnippet
+
+snippet con "context"
+context "${1:context}" do
+  $0
+end
+endsnippet
+
+snippet it "It"
+it "${1:does something}"${2: do
+  $3
+end}
+endsnippet
