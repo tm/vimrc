@@ -22,7 +22,7 @@ set smarttab
 
 "Whitespace stuff
 set nowrap
-set colorcolumn=72
+set colorcolumn=80
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
@@ -192,9 +192,11 @@ let g:ctrlp_open_multi = '1t'
 let g:ctrlp_working_path_mode = 2
 
 " Zencoding mappings
-imap <D-e> <C-y>,
-imap <D-E> <C-y>n
-imap <C-S-e> <C-y>N
+let g:user_zen_expandabbr_key='<D-\>'
+"imap <D-\> <C-y>,
+"vmap <D-\> <C-y>,
+let g:user_zen_next_key='<D-n>'
+let g:user_zen_prev_key='<D-p>'
 
 " Ruby Conque mappings
 nmap <silent> <D-R> :call RunRspecCurrentFileConque()<CR>

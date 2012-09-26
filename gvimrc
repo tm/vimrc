@@ -17,4 +17,6 @@ highlight StatusLine guibg=DarkRed
 " disable New Tab for plugins like CtrlP
 if has('mac')
   macmenu &File.New\ Tab key=<nop>
+  macmenu &File.New\ Window key=<nop>
+  macmenu &File.Print key=<nop>
 endif
