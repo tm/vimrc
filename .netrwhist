@@ -1,9 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =2
 let g:netrw_dirhist_1='/Users/tm/Sites/republikaostrowska.pl'
 let g:netrw_dirhist_2='/Users/tm/Sites/ostrowiaczek.pl'
-let g:netrw_dirhist_3='/Users/tm/.oh-my-zsh'
-let g:netrw_dirhist_4='/Users/tm/Sites/lab/everyday/04_factories'
-let g:netrw_dirhist_5='/Users/tm/Sites/lab/everyday/06_controllers'
-let g:netrw_dirhist_6='/Users/tm/Sites/ostrowiaczek.pl'
-let g:netrw_dirhist_7='/Users/tm/Sites/szybkieczytanie.pl'

@@ -8,10 +8,10 @@ set columns=120
 set transparency=0
 "set relativenumber
 
-set background=dark
-colorscheme codeschool
+set background=light
+colorscheme solarized
 "highlight StatusLineNC guibg=White
-highlight StatusLine guibg=DarkRed
+"highlight StatusLine guibg=DarkRed
 "highlight Search gui=NONE guibg=Orange guifg=Navy 
 
 " disable New Tab for plugins like CtrlP
