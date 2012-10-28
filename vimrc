@@ -192,11 +192,11 @@ let g:ctrlp_open_multi = '1t'
 let g:ctrlp_working_path_mode = 2
 
 " Zencoding mappings
-let g:user_zen_expandabbr_key='<D-\>'
+"let g:user_zen_expandabbr_key='<D-\>'
 "imap <D-\> <C-y>,
 "vmap <D-\> <C-y>,
-let g:user_zen_next_key='<D-n>'
-let g:user_zen_prev_key='<D-p>'
+"let g:user_zen_next_key='<D-n>'
+"let g:user_zen_prev_key='<D-p>'
 
 " Ruby Conque mappings
 nmap <silent> <D-R> :call RunRspecCurrentFileConque()<CR>
