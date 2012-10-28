@@ -144,6 +144,3 @@
 [submodule "bundle/vim-lilypond-integrator"]
 	path = bundle/vim-lilypond-integrator
 	url = https://github.com/gisraptor/vim-lilypond-integrator.git
-[submodule "bundle/vimroom"]
-	path = bundle/vimroom
-	url = https://github.com/mikewest/vimroom.git
