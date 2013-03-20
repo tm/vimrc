@@ -197,6 +197,11 @@ let g:ctrlp_working_path_mode = 2
 "vmap <D-\> <C-y>,
 "let g:user_zen_next_key='<D-n>'
 "let g:user_zen_prev_key='<D-p>'
+let g:user_zen_settings = {
+\  'scss' : {
+\    'filters' : 'fc'
+\  }
+\}
 
 " Ruby Conque mappings
 nmap <silent> <D-R> :call RunRspecCurrentFileConque()<CR>
