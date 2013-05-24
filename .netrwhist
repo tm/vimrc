@@ -1,11 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/tm/Sites/republikaostrowska.pl'
-let g:netrw_dirhist_2='/Users/tm/Sites/ostrowiaczek.pl'
-let g:netrw_dirhist_3='/Users/tm/Sites/lab/jekyll/odkch'
-let g:netrw_dirhist_4='/Users/tm/Sites/lab/odkch'
-let g:netrw_dirhist_5='/Users/tm/Sites/lab'
-let g:netrw_dirhist_6='/Users/tm/Sites/lab/odkch'
-let g:netrw_dirhist_7='/Users/tm/Sites/lab/sinatraapp'
-let g:netrw_dirhist_8='/Users/tm/Sites/lab/odkch'
-let g:netrw_dirhist_9='/Users/tm/.vim'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/tm/Sites/lab/odkch'
+let g:netrw_dirhist_2='/Users/tm/Sites/lab/sklep.republikaostrowska.pl'
+let g:netrw_dirhist_3='/Users/tm/Sites/lab/angular-phonecat'
