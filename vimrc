@@ -350,3 +350,4 @@ endfunction
 " Map this feature to the key sequence ',p' (comma lowercase-p)
 map ,p :call PreviewMarkdown()<CR>
 
+:nnoremap <leader>m :silent !open -a Marked.app '%:p'<cr>
