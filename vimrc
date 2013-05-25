@@ -1,15 +1,60 @@
 set nocompatible
+filetype off
 
-" Pathogen call
-call pathogen#infect()
-call pathogen#helptags()
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+ " let Vundle manage Vundle
+ " required! 
+Bundle 'gmarik/vundle'
+
+Bundle 'vim-scripts/TailMinusF'
+Bundle 'vim-scripts/YankRing.vim'
+Bundle 'mileszs/ack.vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'Raimondi/delimitMate'
+Bundle 'mattn/gist-vim'
+Bundle 'hallettj/jslint.vim'
+Bundle 'juvenn/mustache.vim'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'godlygeek/tabular'
+Bundle 'timcharper/textile.vim'
+Bundle 'SirVer/ultisnips'
+Bundle 'tpope/vim-bundler'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'basepi/vim-conque'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-eunuch'
+Bundle 'int3/vim-extradite'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-haml'
+Bundle 'KohPoll/vim-less'
+Bundle 'gisraptor/vim-lilypond-integrator'
+Bundle 'tpope/vim-markdown'
+Bundle 'sickill/vim-pasta'
+Bundle 'tpope/vim-pastie'
+Bundle 'tpope/vim-ragtag'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-repeat'
+Bundle 'skwp/vim-ruby-conque'
+Bundle 'tpope/vim-rvm'
+Bundle 'slim-template/vim-slim'
+Bundle 'tpope/vim-surround'
+Bundle 'mattn/webapi-vim'
+Bundle 'mattn/zencoding-vim'
+Bundle 'tpope/vim-rake'
+
+
+filetype plugin on
+filetype indent on
 
 set shell=bash
 
 set ruler
 syntax on
-filetype plugin on
-filetype indent on
 
 set encoding=utf-8
 
