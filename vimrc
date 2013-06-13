@@ -8,44 +8,45 @@ call vundle#rc()
  " required! 
 Bundle 'gmarik/vundle'
 
-Bundle 'vim-scripts/TailMinusF'
-Bundle 'vim-scripts/YankRing.vim'
-Bundle 'mileszs/ack.vim'
-Bundle 'kien/ctrlp.vim'
-Bundle 'Raimondi/delimitMate'
-Bundle 'mattn/gist-vim'
-Bundle 'hallettj/jslint.vim'
-Bundle 'juvenn/mustache.vim'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/nerdtree'
-Bundle 'godlygeek/tabular'
-Bundle 'timcharper/textile.vim'
-Bundle 'SirVer/ultisnips'
-Bundle 'tpope/vim-bundler'
-Bundle 'kchmck/vim-coffee-script'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'basepi/vim-conque'
+Bundle 'gisraptor/vim-lilypond-integrator'
+Bundle 'godlygeek/tabular'
+Bundle 'int3/vim-extradite'
+Bundle 'juvenn/mustache.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'kien/ctrlp.vim'
+Bundle 'KohPoll/vim-less'
+Bundle 'mattn/gist-vim'
+Bundle 'mattn/webapi-vim'
+Bundle 'mattn/zencoding-vim'
+Bundle 'mileszs/ack.vim'
+Bundle 'Raimondi/delimitMate'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'sickill/vim-pasta'
+Bundle 'SirVer/ultisnips'
+Bundle 'skwp/vim-ruby-conque'
+Bundle 'slim-template/vim-slim'
+Bundle 'timcharper/textile.vim'
+Bundle 'tpope/vim-bundler'
 Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-eunuch'
-Bundle 'int3/vim-extradite'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-haml'
-Bundle 'KohPoll/vim-less'
-Bundle 'gisraptor/vim-lilypond-integrator'
 Bundle 'tpope/vim-markdown'
-Bundle 'sickill/vim-pasta'
 Bundle 'tpope/vim-pastie'
 Bundle 'tpope/vim-ragtag'
 Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-repeat'
-Bundle 'skwp/vim-ruby-conque'
-Bundle 'tpope/vim-rvm'
-Bundle 'slim-template/vim-slim'
-Bundle 'tpope/vim-surround'
-Bundle 'mattn/webapi-vim'
-Bundle 'mattn/zencoding-vim'
 Bundle 'tpope/vim-rake'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-rvm'
+Bundle 'tpope/vim-speeddating'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-scripts/TailMinusF'
+Bundle 'vim-scripts/YankRing.vim'
 
 
 filetype plugin on
@@ -66,14 +67,14 @@ set autoindent
 set smarttab
 
 "Whitespace stuff
-set nowrap
+set wrap
 set colorcolumn=80
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 "set showbreak=:::
 set listchars=tab:▶-,trail:.
-set list
+set nolist
 set expandtab
 
 " Searching
@@ -110,7 +111,7 @@ set showmatch
 " avoid showing matching parenthesis in normal mode
 let loaded_matchparen = 1
 set cmdheight=2
-" set cursorline disabled because of performance problems
+set cursorline
 " set cursorcolumn
 set matchtime=5
 set timeoutlen=2000
@@ -124,8 +125,10 @@ set so=8
 set display+=lastline
 set showmode
 set formatoptions+=1
+set formatoptions+=l
 set formatoptions-=o " don't continue comments when pushing o/O
 set linebreak
+"set breakat=\ |@-+;:,./?^I
 set mousehide
 set mouse=a
 set number
@@ -138,7 +141,7 @@ nnoremap / /\v
 vnoremap / /\v
 nnoremap <tab> %
 vnoremap <tab> %
-nmap <silent> <leader>/ :nohlsearch<CR>
+:nnoremap <CR> :nohlsearch<CR>
 nmap k gk
 nmap j gj
 vmap k gk
@@ -202,7 +205,7 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " cucumbertables.vim by Tim Pope
 
-inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
+inoremap <silent><Bar> <Bar><Esc>:call <SID>align()<CR>a
 
 function! s:align()
   let p = '^\s*|\s.*\s|\s*$'
@@ -223,6 +226,10 @@ autocmd BufNewFile,BufRead spec/**/*rb set filetype=ruby.rspec
 " setting ejs templates to html syntax
 autocmd BufNewFile,BufRead *.ejs set filetype=html
 
+
+" mark YAML frontmatter as a comment
+au BufNewFile,BufRead *.{md,markdown,textile,slim} sy match Comment /\%^---\_.\{-}---$/
+
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
 let g:JSLintHighlightErrorLine = 0
@@ -235,6 +242,7 @@ let g:ctrlp_regexp_search = 1
 let g:ctrlp_open_new_file = 0
 let g:ctrlp_open_multi = '1t'
 let g:ctrlp_working_path_mode = 2
+let g:ctrlp_custom_ignore = '\v[\/](build)$'
 
 " Zencoding mappings
 "let g:user_zen_expandabbr_key='<D-\>'

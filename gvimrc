@@ -1,4 +1,4 @@
-set guifont=Menlo:h12
+set guifont=Menlo:h11
 set guioptions=aAcer
 set linespace=2
 set antialias
@@ -8,6 +8,7 @@ set columns=120
 set transparency=0
 "set relativenumber
 
+let g:solarized_bold=0
 set background=light
 colorscheme solarized
 "highlight StatusLineNC guibg=White
