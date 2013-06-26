@@ -15,13 +15,13 @@ Bundle 'godlygeek/tabular'
 Bundle 'int3/vim-extradite'
 Bundle 'juvenn/mustache.vim'
 Bundle 'kchmck/vim-coffee-script'
-Bundle 'kien/ctrlp.vim'
 Bundle 'KohPoll/vim-less'
 Bundle 'mattn/gist-vim'
 Bundle 'mattn/webapi-vim'
 Bundle 'mattn/zencoding-vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'Raimondi/delimitMate'
+Bundle 'ricardovaleriano/vim-github-theme'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
@@ -48,6 +48,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/TailMinusF'
 Bundle 'vim-scripts/YankRing.vim'
 
+Bundle 'kien/ctrlp.vim'
 
 filetype plugin on
 filetype indent on
@@ -72,7 +73,7 @@ set colorcolumn=80
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-"set showbreak=:::
+set showbreak=↪
 set listchars=tab:▶-,trail:.
 set nolist
 set expandtab
@@ -195,6 +196,7 @@ let g:gist_open_browser_after_post = 1
 "UltiSnips configuration
 set virtualedit=onemore
 set runtimepath+=~/vim
+let g:UltiSnipsDontReverseSearchPath="1"
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "snippets"]
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
