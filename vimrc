@@ -47,6 +47,7 @@ Bundle 'tpope/vim-speeddating'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/TailMinusF'
 Bundle 'vim-scripts/YankRing.vim'
+Bundle 'guns/vim-clojure-static'
 
 Bundle 'kien/ctrlp.vim'
 

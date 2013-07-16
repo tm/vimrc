@@ -1,7 +1,25 @@
 snippet fun "Function" !w
-function${1:name}(${2:arguments}) {
+function ${1:name}(${2:arguments}) {
 	$0
 }${3:,}
+endsnippet
+
+snippet f "Anonymous function" !w
+function(${1:arguments}) {
+	$0
+}${2:,}
+endsnippet
+
+snippet ; "({});" w
+({
+	$0
+});
+endsnippet
+
+snippet mod "Marionette module"
+${1:ApplicationName}.module('${2:ModuleName}', function(${3:names}, $1, Backbone, Marionette, $, _ ){
+	$0
+});
 endsnippet
 
 
