@@ -1,4 +1,4 @@
-set nocompatible
+set nocompatible ""
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
@@ -18,7 +18,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'KohPoll/vim-less'
 Bundle 'mattn/gist-vim'
 Bundle 'mattn/webapi-vim'
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'ricardovaleriano/vim-github-theme'
@@ -48,6 +48,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/TailMinusF'
 Bundle 'vim-scripts/YankRing.vim'
 Bundle 'guns/vim-clojure-static'
+Bundle 'ervandew/supertab'
 
 Bundle 'kien/ctrlp.vim'
 
@@ -267,3 +268,6 @@ nmap <silent> ,<D-R> :call RunLastConqueCommand()<CR>
 
 " Preview in Marked.app
 :nnoremap <leader>m :silent !open -a Marked.app '%:p'<cr>
+
+" SuperTab
+let g:SuperTabDefaultCompletionType = "context"
